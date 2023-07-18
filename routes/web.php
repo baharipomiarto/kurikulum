@@ -23,4 +23,5 @@ Route::controller(MapelController::class)->group(function () {
     Route::get('/mapel-add', 'add');
     Route::post('/mapel-create', 'create');
     Route::get('/mapel-edit/{id}', 'edit');
+    Route::put('/mapel-save/{id}', 'save');
 });
