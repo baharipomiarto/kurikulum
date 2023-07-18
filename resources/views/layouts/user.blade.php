@@ -11,17 +11,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Kurukulum - @yield('title')</title>
     <!-- plugins:css -->
-    <link rel="stylesheet" href="../../assets/vendors/mdi/css/materialdesignicons.min.css">
-    <link rel="stylesheet" href="../../assets/vendors/css/vendor.bundle.base.css">
+    <link rel="stylesheet" href="./assets/vendors/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="./assets/vendors/css/vendor.bundle.base.css">
     <!-- endinject -->
     <!-- Plugin css for this page -->
     <!-- End plugin css for this page -->
     <!-- inject:css -->
     <!-- endinject -->
     <!-- Layout styles -->
-    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <!-- End layout styles -->
-    <link rel="shortcut icon" href="../../assets/images/favicon.ico" />
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" />
   </head>
   <body>
     <div class="container-scroller">
@@ -194,20 +194,24 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="../../index.html">
-                <span class="menu-title">Dashboard</span>
+                <span class="menu-title">Halaman Utama</span>
                 <i class="mdi mdi-home menu-icon"></i>
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" data-bs-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
-                <span class="menu-title">Basic UI Elements</span>
+                <span class="menu-title">Data</span>
                 <i class="menu-arrow"></i>
                 <i class="mdi mdi-crosshairs-gps menu-icon"></i>
               </a>
               <div class="collapse" id="ui-basic">
                 <ul class="nav flex-column sub-menu">
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/buttons.html">Buttons</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/typography.html">Typography</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="./guru">Guru</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="./mapel">Matapelajaran</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="./siswa">Siswa</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="./thajaran">Tahun Ajaran</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="./jurusan">Jurusan</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="./kelas">Kelas</a></li>
                 </ul>
               </div>
             </li>
@@ -251,23 +255,7 @@
                 </ul>
               </div>
             </li>
-            <li class="nav-item sidebar-actions">
-              <span class="nav-link">
-                <div class="border-bottom">
-                  <h6 class="font-weight-normal mb-3">Projects</h6>
-                </div>
-                <button class="btn btn-block btn-lg btn-gradient-primary mt-4">+ Add a project</button>
-                <div class="mt-4">
-                  <div class="border-bottom">
-                    <p class="text-secondary">Categories</p>
-                  </div>
-                  <ul class="gradient-bullet-list mt-4">
-                    <li>Free</li>
-                    <li>Pro</li>
-                  </ul>
-                </div>
-              </span>
-            </li>
+            
           </ul>
         </nav>
         <!-- partial -->
@@ -292,14 +280,14 @@
     </div>
     <!-- container-scroller -->
     <!-- plugins:js -->
-    <script src="../../assets/vendors/js/vendor.bundle.base.js"></script>
+    <script src="./assets/vendors/js/vendor.bundle.base.js"></script>
     <!-- endinject -->
     <!-- Plugin js for this page -->
     <!-- End plugin js for this page -->
     <!-- inject:js -->
-    <script src="../../assets/js/off-canvas.js"></script>
-    <script src="../../assets/js/hoverable-collapse.js"></script>
-    <script src="../../assets/js/misc.js"></script>
+    <script src="./assets/js/off-canvas.js"></script>
+    <script src="./assets/js/hoverable-collapse.js"></script>
+    <script src="./assets/js/misc.js"></script>
     <!-- endinject -->
     <!-- Custom js for this page -->
     <!-- End custom js for this page -->
